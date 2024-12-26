@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+
+.preview {
+  position: absolute;
+  z-index: 10001;
+  top: 5vh;
+  right: 5vh;
+  font-size: 3vw;
+  color: #ffffff84;
+}
+
+.parent_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+/* 
+.flag_container {
+  position: relative;
+  top: 25px;
+  left: 12.5px;
+} */
+
+#hotspot_container {
+  position: relative;
+  top: -200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+#circle {
+  position: absolute;
+  bottom: -7.5px;
+  left: calc(2.5px - 7.5px);
+  width: 15px;
+  height: 15px;
+  background-image: url("../public/icons/Animation.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.point {
+  padding: 0;
+  width: 4px;
+  height: 0px;
+  background: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 0 0 3px 3px;
+  transition: height 1s ease;
+  transform: rotate(20deg);
+  transform-origin: 0% 0%;
+}
+
+/* .point:hover {
+  height: 200px;
+} */
+
+#button_bar{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.button_stick{
+  height: 25px;
+  width: 4px;
+  position: relative;
+  transform: translate(0, 100%);
+  background: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 0 0 3px 3px;
+  transition: height 1s ease;
+}
+
+#button_closed {
+  padding: 0;
+  position: relative;
+  left: 6px;
+  top: 30px;
+  height: 0px;
+  width: 0px;
+  /* width: max-content; */
+  background: #ab41e1;
+  border: none;
+  /*border-radius: 25px 25px 25px 0;*/
+  color: #ffffff;
+  font: normal bold 22px "Open Sans", sans-serif;
+  text-align: center;
+  overflow: hidden;
+  transition: width 1s ease;
+  transition-delay: 0.5s;
+  font-size: 0.8vw;
+  font-weight: 500;
+}
+
+#button_closed span {
+  text-wrap: nowrap;
+  text-overflow: clip;
+}
+
+/* #button_closed:hover span {
+  display: none;
+}
+
+#button_closed:hover {
+  width: 300px;
+  transition: width 1s;
+}
+
+#button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#button_closed:hover::after {
+  content: "Location";
+  display: inline-block;
+} */
+
+.project_logo {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 10vw;
+  height: 10vw;
+  background-image: url("../public/icons/kavya-park-one-final-logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s ease;
+  transition-delay: 0.5s;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+.logo_position_left {
+  top: 3vw !important;
+  left: 3vw !important;
+  width: 5vw !important;
+  height: 5vw !important;
+}
+
+.loader_screen {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a05af1;
+}
+
+#progress-bar-pano {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 30vw;
+  height: 2px;
+  border: none;
+  /* accent-color: #000066; */
+}
+
+#progress-bar-pano::-webkit-progress-bar {
+  background-color: rgba(0, 0, 0, 0.677);
+}
+#progress-bar-pano::-webkit-progress-value {
+  background-color: #ffffff;
+}
+
+@media (orientation: portrait) {
+  #button_closed {
+    font-size: 2vw;
+    font-weight: 500;
+  }
+  .project_logo {
+    width: 20vh;
+    height: 20vh;
+  }
+  .logo_position_left {
+    top: 4vh !important;
+    left: 4vh !important;
+    width: 7vh !important;
+    height: 7vh !important;
+  }
+}

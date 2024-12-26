@@ -1,0 +1,16 @@
+submit your enquiry
+
+-full name
+-booking 
+-consultancy
+-and scedule a meeting
+-remove the textbox
+
+hamburger menu to jump between panoramas
+
+new highLighter-
+-matterport content
+-my content
+
+hotspots-
+-the hotspots will host different content like link to websites and videos etc.

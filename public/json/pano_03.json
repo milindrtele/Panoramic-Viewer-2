@@ -1,0 +1,33 @@
+[
+    {
+      "name": "x",
+      "position": { "x": 25, "y": -100, "z": -100 },
+      "childHtmlUrl": "/innerHtml/child_new.html",
+      "buttonTextContent": "X Y Z",
+      "stemHeight": 50,
+      "buttonWidth": 14,
+      "angle": 0,
+      "flagPosition": "start"
+    },
+    {
+      "name": "y",
+      "position": { "x": 450, "y": -90, "z": -120 },
+      "childHtmlUrl": "/innerHtml/child_new.html",
+      "buttonTextContent": "W X Y Z",
+      "stemHeight": 170,
+      "buttonWidth": 6.22,
+      "angle": -60,
+      "flagPosition": "end"
+    },
+    {
+      "name": "z",
+      "position": { "x": 600, "y": -150, "z": -90 },
+      "childHtmlUrl": "/innerHtml/child_new.html",
+      "buttonTextContent": "V W X Y Z",
+      "stemHeight": 150,
+      "buttonWidth": 6.22,
+      "angle": 30,
+      "flagPosition": "start"
+    }
+  ]
+  

@@ -1,0 +1,70 @@
+[
+    {
+      "name": "pano_0",
+      "hotSpotJsonUrl": "/json/pano_01.json",
+      "highLighterJsonUrl": "models/new_highlighters/pano_01_highLighters/pano_01_highLighters_02.glb",
+      "teleportPointsUrl": "/json/room_0_teleportPoints.json",
+      "panoTextureUrlArray": [
+        "/cubemap/Flat_panoramas/room_0/px.png",
+        "/cubemap/Flat_panoramas/room_0/nx.png",
+        "/cubemap/Flat_panoramas/room_0/ny.png",
+        "/cubemap/Flat_panoramas/room_0/py.png",
+        "/cubemap/Flat_panoramas/room_0/pz.png",
+        "/cubemap/Flat_panoramas/room_0/nz.png"
+      ]
+    },
+    {
+      "name": "pano_1",
+      "hotSpotJsonUrl": "/json/pano_02.json",
+      "highLighterJsonUrl": "models/new_highlighters/pano_02_highLighters/pano_02_highLighters_1.glb",
+      "teleportPointsUrl": "/json/room_1_teleportPoints.json",
+      "panoTextureUrlArray": [
+        "/cubemap/Flat_panoramas/room_1/px.png",
+        "/cubemap/Flat_panoramas/room_1/nx.png",
+        "/cubemap/Flat_panoramas/room_1/ny.png",
+        "/cubemap/Flat_panoramas/room_1/py.png",
+        "/cubemap/Flat_panoramas/room_1/pz.png",
+        "/cubemap/Flat_panoramas/room_1/nz.png"
+      ]
+    },
+    {
+      "name": "pano_2",
+      "hotSpotJsonUrl": "/json/pano_03.json",
+      "teleportPointsUrl": "/json/room_2_teleportPoints.json",
+      "panoTextureUrlArray": [
+        "/cubemap/Flat_panoramas/room_2/px.png",
+        "/cubemap/Flat_panoramas/room_2/nx.png",
+        "/cubemap/Flat_panoramas/room_2/ny.png",
+        "/cubemap/Flat_panoramas/room_2/py.png",
+        "/cubemap/Flat_panoramas/room_2/pz.png",
+        "/cubemap/Flat_panoramas/room_2/nz.png"
+      ]
+    },
+    {
+      "name": "pano_2",
+      "hotSpotJsonUrl": "/json/pano_03.json",
+      "teleportPointsUrl": "/json/room_3_teleportPoints.json",
+      "panoTextureUrlArray": [
+        "/cubemap/Flat_panoramas/room_3/px.png",
+        "/cubemap/Flat_panoramas/room_3/nx.png",
+        "/cubemap/Flat_panoramas/room_3/ny.png",
+        "/cubemap/Flat_panoramas/room_3/py.png",
+        "/cubemap/Flat_panoramas/room_3/pz.png",
+        "/cubemap/Flat_panoramas/room_3/nz.png"
+      ]
+    },
+    {
+      "name": "pano_2",
+      "hotSpotJsonUrl": "/json/pano_03.json",
+      "teleportPointsUrl": "/json/room_4_teleportPoints.json",
+      "panoTextureUrlArray": [
+        "/cubemap/Flat_panoramas/room_4/px.png",
+        "/cubemap/Flat_panoramas/room_4/nx.png",
+        "/cubemap/Flat_panoramas/room_4/ny.png",
+        "/cubemap/Flat_panoramas/room_4/py.png",
+        "/cubemap/Flat_panoramas/room_4/pz.png",
+        "/cubemap/Flat_panoramas/room_4/nz.png"
+      ]
+    }
+  ]
+  

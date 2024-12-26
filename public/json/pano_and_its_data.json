@@ -1,0 +1,40 @@
+[
+  {
+    "name": "pano_0",
+    "hotSpotJsonUrl": "/json/pano_01.json",
+    "highLighterJsonUrl": "models/new_highlighters/pano_01_highLighters/pano_01_highLighters_02.glb",
+    "panoTextureUrlArray": [
+      "/cubemap/pano_images_jpg/pano_0/px.jpg",
+      "/cubemap/pano_images_jpg/pano_0/nx.jpg",
+      "/cubemap/pano_images_jpg/pano_0/ny.jpg",
+      "/cubemap/pano_images_jpg/pano_0/py.jpg",
+      "/cubemap/pano_images_jpg/pano_0/pz.jpg",
+      "/cubemap/pano_images_jpg/pano_0/nz.jpg"
+    ]
+  },
+  {
+    "name": "pano_1",
+    "hotSpotJsonUrl": "/json/pano_02.json",
+    "highLighterJsonUrl": "models/new_highlighters/pano_02_highLighters/pano_02_highLighters_1.glb",
+    "panoTextureUrlArray": [
+      "/cubemap/pano_images_jpg/pano_1/px.jpg",
+      "/cubemap/pano_images_jpg/pano_1/nx.jpg",
+      "/cubemap/pano_images_jpg/pano_1/ny.jpg",
+      "/cubemap/pano_images_jpg/pano_1/py.jpg",
+      "/cubemap/pano_images_jpg/pano_1/pz.jpg",
+      "/cubemap/pano_images_jpg/pano_1/nz.jpg"
+    ]
+  },
+  {
+    "name": "pano_2",
+    "hotSpotJsonUrl": "/json/pano_03.json",
+    "panoTextureUrlArray": [
+      "/cubemap/pano_images_jpg/pano_2/px.jpg",
+      "/cubemap/pano_images_jpg/pano_2/nx.jpg",
+      "/cubemap/pano_images_jpg/pano_2/ny.jpg",
+      "/cubemap/pano_images_jpg/pano_2/py.jpg",
+      "/cubemap/pano_images_jpg/pano_2/pz.jpg",
+      "/cubemap/pano_images_jpg/pano_2/nz.jpg"
+    ]
+  }
+]
