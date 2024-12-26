@@ -24,12 +24,14 @@ class TeleportPoints {
     async init(teleportUrl) {
         const teleportData = await this.fetchTeleportPoints(teleportUrl);
         teleportData.forEach((point) => {
+            console.log(point);
             const geometry = new THREE.RingGeometry(1, 1.5, 32);
             const material = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide });
             const ring = new THREE.Mesh(geometry, material);
 
             // Position the ring using data from the JSON
-            ring.position.set(point.x, point.y, point.z);
+            ring.userData = {name: point.name};
+            ring.position.set(point.position.x, point.position.y, point.position.z);
             ring.rotation.x = -Math.PI / 2; // Face upwards
             this.scene.add(ring);
 

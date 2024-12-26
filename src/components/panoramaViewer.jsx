@@ -175,6 +175,7 @@ function PanoramaViewer(props) {
         );
       });
       panoSphereRef.current.setUpTeleportPoints(panodata.teleportPointsUrl);
+      panoSphereRef.current.teleportPoints.addToScene();
     });
 
     // const panodata = findData("/json/flat_panorama.json", "pano_0");
