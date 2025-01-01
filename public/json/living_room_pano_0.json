@@ -1,0 +1,54 @@
+[
+    {
+        "name": "living_room_pano_1",
+        "position": {
+            "x": 0,
+            "y": -4.9,
+            "z": -7
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        }
+    },
+    {
+        "name": "bedroom_1",
+        "position": {
+            "x": -15,
+            "y": -4.9,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        }
+    },
+    {
+        "name": "bedroom_2",
+        "position": {
+            "x": -19,
+            "y": -4.9,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        }
+    },
+    {
+        "name": "bedroom_3",
+        "position": {
+            "x": -25,
+            "y": -4.9,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        }
+    }
+]

@@ -1,9 +1,9 @@
 [
     {
-      "name": "pano_0",
+      "name": "living_room_pano_0",
       "hotSpotJsonUrl": "/json/pano_01.json",
       "highLighterJsonUrl": "models/new_highlighters/pano_01_highLighters/pano_01_highLighters_02.glb",
-      "teleportPointsUrl": "/json/room_0_teleportPoints.json",
+      "teleportPointsUrl": "/json/living_room_pano_0.json",
       "panoTextureUrlArray": [
         "/cubemap/Flat_panoramas/room_0/px.png",
         "/cubemap/Flat_panoramas/room_0/nx.png",
@@ -14,10 +14,10 @@
       ]
     },
     {
-      "name": "pano_1",
+      "name": "living_room_pano_1",
       "hotSpotJsonUrl": "/json/pano_02.json",
       "highLighterJsonUrl": "models/new_highlighters/pano_02_highLighters/pano_02_highLighters_1.glb",
-      "teleportPointsUrl": "/json/room_1_teleportPoints.json",
+      "teleportPointsUrl": "/json/living_room_pano_1.json",
       "panoTextureUrlArray": [
         "/cubemap/Flat_panoramas/room_1/px.png",
         "/cubemap/Flat_panoramas/room_1/nx.png",
@@ -28,9 +28,9 @@
       ]
     },
     {
-      "name": "pano_2",
+      "name": "bedroom_1",
       "hotSpotJsonUrl": "/json/pano_03.json",
-      "teleportPointsUrl": "/json/room_2_teleportPoints.json",
+      "teleportPointsUrl": "/json/bedroom_1.json",
       "panoTextureUrlArray": [
         "/cubemap/Flat_panoramas/room_2/px.png",
         "/cubemap/Flat_panoramas/room_2/nx.png",
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "name": "pano_2",
+      "name": "bedroom_2",
       "hotSpotJsonUrl": "/json/pano_03.json",
-      "teleportPointsUrl": "/json/room_3_teleportPoints.json",
+      "teleportPointsUrl": "/json/bedroom_2.json",
       "panoTextureUrlArray": [
         "/cubemap/Flat_panoramas/room_3/px.png",
         "/cubemap/Flat_panoramas/room_3/nx.png",
@@ -54,9 +54,9 @@
       ]
     },
     {
-      "name": "pano_2",
+      "name": "bedroom_3",
       "hotSpotJsonUrl": "/json/pano_03.json",
-      "teleportPointsUrl": "/json/room_4_teleportPoints.json",
+      "teleportPointsUrl": "/json/bedroom_3.json",
       "panoTextureUrlArray": [
         "/cubemap/Flat_panoramas/room_4/px.png",
         "/cubemap/Flat_panoramas/room_4/nx.png",

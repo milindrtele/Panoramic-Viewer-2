@@ -158,7 +158,7 @@ function PanoramaViewer(props) {
     //   }
     // }
 
-    findData("/json/flat_panorama.json", "pano_0").then((panodata) => {
+    findData("/json/flat_panorama.json", "living_room_pano_0").then((panodata) => {
       setPercentageLoaded(0);
       panoDataRef.current = panodata;
       panoSphereRef.current.setPanoramaTexture(panodata.panoTextureUrlArray);
@@ -389,7 +389,7 @@ function PanoramaViewer(props) {
 
       let pos = { x: 0, y: 400, z: 100 };
       const positionTween = new TWEEN.Tween(pos, tweenGroupRef.current)
-        .to({ x: 0, y: 0.35, z: 1 }, 5000)
+        .to({ x: 0, y: 0.05, z: 0.1 }, 5000)//.to({ x: 0, y: 0.35, z: 1 }, 5000)
         .easing(TWEEN.Easing.Cubic.InOut)
         .onStart(()=>{
           isCameraAnimatingRef.current = true;
@@ -639,7 +639,7 @@ function PanoramaViewer(props) {
 
   // Adjust the camera position based on spherical coordinates
   function position_camera(controls, phi, theta) {
-    const spherical_position = new THREE.Spherical(1, phi, theta);
+    const spherical_position = new THREE.Spherical(0.1, phi, theta);
     const position = new THREE.Vector3().setFromSpherical(spherical_position);
     cameraRef.current.position.set(position.x, position.y, position.z);
   }
